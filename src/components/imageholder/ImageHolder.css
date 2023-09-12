@@ -1,0 +1,45 @@
+body{
+    background-color: var(--neutral);
+}
+
+.imageholder{
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    flex-direction: column;
+}
+.imageholder img{
+
+    max-width: 98%;
+    border: 2px solid var(--secondary-color);
+}
+
+.product-title{
+
+    width: 80%;
+    text-align: center;
+}
+.product-title h3{
+
+    font-size: 30px;
+    color: var(--neutral2);
+}
+
+.product-overview{
+
+    width: 500px;
+    max-width: 100%;
+    text-align: center;
+}
+.product-overview span{
+    font-weight: bold;
+    font-size: 18px;
+    color: var(--secondary-color);
+}
+.product-overview p{
+    color: var(--neutral2);
+}
+

@@ -1,0 +1,46 @@
+.review{
+
+    width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        flex-direction: column;
+}
+
+.section-title{
+
+    width: 500px;
+    max-width: 100%;
+    text-align: center;
+    color: var(--neutral2);
+}
+.section-title h3{
+
+    font-size: 25px;
+    color: var(--secondary-color);
+}
+
+.message-input{
+
+    width: 500px;
+    max-width: 100%;
+}
+.message-input textarea{
+
+    width: 98%;
+    height: 200px;
+    background-color: var(--neutral);
+    color: var(--neutral2);
+    border: 2px solid var(--neutral2);
+    outline: 0;
+}
+.message-input button{
+    width: 98%;
+    padding: 10px;
+    color: var(--neutral2);
+    cursor: pointer;
+    background-color: var(--secondary-color);
+    border: 0;
+    outline: 0;
+}
